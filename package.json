@@ -1,0 +1,24 @@
+{
+	"name": "rect-proj2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "webpack.config.js",
+	"dependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"babel-preset-env": "^1.6.0",
+		"babel-preset-react": "^6.24.1",
+		"react": "^15.6.1",
+		"react-dom": "^15.6.1",
+		"react-rnd": "^7.0.0",
+		"webpack": "^3.5.6",
+		"webpack-dev-server": "^2.8.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "webpack-dev-server --hot --inline",
+		"build": "webpack"
+	},
+	"author": "Chuck Reynolds",
+	"license": "ISC"
+}
